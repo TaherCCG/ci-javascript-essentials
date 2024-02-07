@@ -1,0 +1,9 @@
+#switch {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    color: white;
+    font-weight: 800;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
