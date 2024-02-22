@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Fill out the form!</h1>
+  <div>
+    <label for="my-input">Enter some input:</label>
+    <input id="my-input" type="text" oninput="console.log('You changed the text box!');">
+  </div>
+  <div>
+    <label for="my-select">Select an option:</label>
+    <select name="my-select" id="my-select" onchange="console.log('You changed the select box!');">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
