@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Prepopulating Form Fields</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+  </head>
+  <body>
+    <h3>Edit profile</h3>
+    <form method="POST" action="/profile/">
+        <div class="name-box">
+            <label for="first-name">First Name:</label>
+            <input id="first-name" name="first-name" type="text" required>
+        </div>
+        <div class="name-box">
+            <label for="last-name">Last Name:</label>
+            <input id="last-name" name="last-name" type="text" required>
+        </div>
+        <div class="form-box">
+            <label for="headline">Headline:</label>
+            <input id="headline" name="headline" type="text" required>
+        </div>
+        <div class="form-box">
+            <label for="position">Current position:</label>
+            <input id="position" name="position" type="text" required>
+        </div>
+        <input type="submit">
+    </form>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/acorn/7.3.1/acorn.js" integrity="sha512-4GRq4mhgV43mQBgKMBRG9GbneAGisNSqz6DSgiBYsYRTjq2ggGt29Dk5thHHJu38Er7wByX/EZoG+0OcxI5upg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/acorn-walk/7.2.0/walk.js" integrity="sha512-j5XDYQOKluxz1i4c7YMMXvjLLw38YFu12kKGYlr2+w/XZLV5Vg2R/VUbhN//K/V6LPKuoOA4pfcPXB5NgV7Gwg==" crossorigin="anonymous"></script>
+    <script src="74-prepopulating-form.js"></script>
+  </body>
+</html>
