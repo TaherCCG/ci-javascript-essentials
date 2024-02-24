@@ -1,0 +1,10 @@
+label {
+    display: block;
+}
+input {
+    margin-bottom: 1rem;
+}
+p {
+    color: red;
+    font-weight: bold;
+}
