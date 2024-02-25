@@ -1,0 +1,16 @@
+body {
+    font-family: Helvetica;
+    padding: 1rem;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  min-width: 4rem;
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
