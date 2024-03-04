@@ -2,7 +2,7 @@ let mixedLetters = ['b', 'd', 'a', 'c', 'f', 'e'];
 let moreMixedLetters = [...mixedLetters,'h', 'k', 'g', 'j', 'i', 'l'];
 console.log(moreMixedLetters);
 
-const updateSortReverse = (arr, ...letters) => sorterd = [...arr, ...letters].sort().reverse();
+const updateSortReverse = (arr, ...letters) => [...arr, ...letters].sort().reverse();
 
 /*  //Below function works too. 
 const updateSortReverse = (arr, ...letters) => {
