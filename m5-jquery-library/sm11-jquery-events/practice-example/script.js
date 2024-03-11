@@ -1,9 +1,8 @@
 $(document).ready(function() {
     $("#stream1_btn").on("click", function() {
-        $(".stream1").removeClass('highlight_stream');
-        $(".stream2").removeClass('highlight_stream');
-        $(".stream3").removeClass('highlight_stream');
-        $(".stream1").addClass('highlight_stream');
+          $(".stream1").fadeTo(1000, 0.5);
+          // $(".stream1").fadeToggle('1000');
+       
    });
    $("#stream2_btn").click(function() {
         $(".stream1").removeClass('highlight_stream');
