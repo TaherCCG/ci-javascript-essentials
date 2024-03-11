@@ -17,4 +17,26 @@ $(document).ready(function() {
         $(".stream3").removeClass('highlight_stream');
         $(".stream3").addClass('highlight_stream');
    });
+     $("p").click(function() {
+            $("p").css("color", "red");
+     });
+     $("h2").hover(function() {
+        $("h2").css("background-color", "lightblue");
+     });
+     $("h2").mouseleave(function() {
+        $("h2").css("background-color", "white");
+     });
+     $("h2").hover(function() {
+            $(this).css("font-size", "2em");
+       }, function() {
+            $(this).css("font-size", "1.5em");
+       });
+
+     $("h2").click(function() {
+        $("h2").css("background-color", "lightblue");
+     });
+     $("h2").dblclick(function() {
+        $("h2").css("background-color", "lightgreen");
+     });
+
 }); 
